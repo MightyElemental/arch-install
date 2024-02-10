@@ -1,29 +1,42 @@
-
+#!/bin/bash
 
 pacman -Sy --noconfirm
 
+# Basic Tools
+pacman -S --noconfirm --needed \
+    gparted \
+    base-devel \
+    git \
+    sudo \
+    wget \
+    curl 
+
 # Standard
 pacman -S --noconfirm --needed \
-    git \
-    base-devel \
     breeze-gtk \
     firefox \
     thunderbird \
-    code \
+    catfish \
+    virtualbox \
+    virtualbox-guest-iso \
+    virtualbox-guest-utils
+
+# Entertainment
+pacman -S --noconfirm --needed \
     steam \
-    audacity \
-    gimp \
+    vlc \
+    dolphin-emu
+
+# Development
+pacman -S --noconfirm --needed \
     cuda \
     cuda-tools \
+    audacity \
+    gimp \
+    code \
     openmpi \
-    vlc \
-    catfish \
     dbeaver \
-    sqlitebrowser \
-    sudo \
-    wget \
-    curl
-
+    sqlitebrowser 
 
 # Latex
 pacman -S --noconfirm --needed \

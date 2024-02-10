@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Install yay if needed
 if ! pacman -Qi yay > /dev/null ; then
@@ -16,9 +17,7 @@ yay -S --noconfirm --needed \
     soundux \
     plexamp-appimage \
     onedriver-git \
-    k4dirstat \
-    joplin-appimage \
-    archlinux-java-run \
+    archlinux-java-run 
 
 # Games
 yay -S --noconfirm --needed \
@@ -27,7 +26,7 @@ yay -S --noconfirm --needed \
     betacraft-launcher-bin \
     minecraft-technic-launcher \
     minecraft-launcher \
-    nbtexplorer-bin \
+    nbtexplorer-bin 
 
 # Development
 yay -S --noconfirm --needed \
@@ -35,13 +34,13 @@ yay -S --noconfirm --needed \
     android-studio \
     xilinx-ise \
     megit \
-    net-logo \
+    net-logo 
 
 # Creative
 yay -S --noconfirm --needed \
     gimp-plugin-registry \
     cura-modern-appimage \
-    drawio-desktop-bin \
+    drawio-desktop-bin 
 
 # Tools
 yay -S --noconfirm --needed \
@@ -55,3 +54,6 @@ yay -S --noconfirm --needed \
     makemkv \
     x2goclient \
     downgrade \
+    yt-dlp-git \
+    joplin-appimage \
+    k4dirstat \
