@@ -11,39 +11,65 @@ fi
 
 # Install AUR packages
 
-yay -S --noconfirm --needed \
+yay -S --noconfirm --needed --sudoloop \
     papirus-maia-icon-theme-git \
     matcha-gtk-theme \
     soundux \
     plexamp-appimage \
     onedriver-git \
-    archlinux-java-run 
+    archlinux-java-run \
+    google-earth-pro 
+
+# wine
+yay -S --noconfirm --needed --sudoloop \
+    dxvk-bin \
+    protontricks \
+    wine \
+    winetricks
 
 # Games
-yay -S --noconfirm --needed \
-    mangohud-common-git \
+yay -S --noconfirm --needed --sudoloop \
+    mangohud \
+    lib32-mangohud \
+    satisfactory-mod-manager \
     osu-lazer-bin \
     betacraft-launcher-bin \
     minecraft-technic-launcher \
     minecraft-launcher \
-    nbtexplorer-bin 
+    nbtexplorer-bin \
+    curseforge 
+
+# zsh
+yay -S --noconfirm --needed --sudoloop \
+    zsh \
+    zsh-autocomplete \
+    zsh-autosuggestions \
+    zsh-syntax-highlighting 
 
 # Development
-yay -S --noconfirm --needed \
+yay -S --noconfirm --needed --sudoloop \
     anaconda \
     android-studio \
     xilinx-ise \
     megit \
-    net-logo 
+    netlogo 
 
 # Creative
-yay -S --noconfirm --needed \
+yay -S --noconfirm --needed --sudoloop \
     gimp-plugin-registry \
-    cura-modern-appimage \
-    drawio-desktop-bin 
+    cura-bin \
+    drawio-desktop-bin \
+    kdenlive 
+
+# Browsers
+yay -S --noconfirm --needed --sudoloop \
+    microsoft-edge-stable-bin \
+    chromium \
+    firefox \
+    tor 
 
 # Tools
-yay -S --noconfirm --needed \
+yay -S --noconfirm --needed --sudoloop \
     spectre-meltdown-checker \
     gtkhash-thunar \
     qbittorrent \
@@ -54,6 +80,6 @@ yay -S --noconfirm --needed \
     makemkv \
     x2goclient \
     downgrade \
-    yt-dlp-git \
     joplin-appimage \
     k4dirstat \
+    teamviewer 

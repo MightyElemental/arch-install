@@ -9,21 +9,26 @@ pacman -S --noconfirm --needed \
     git \
     sudo \
     wget \
-    curl 
+    curl \
+    ibus \
+    ibus-anthy 
 
 # Standard
 pacman -S --noconfirm --needed \
     breeze-gtk \
-    firefox \
     thunderbird \
     catfish \
     virtualbox \
     virtualbox-guest-iso \
-    virtualbox-guest-utils
+    virtualbox-guest-utils \
+    discord \
+    telegram-desktop \
+    obs-studio 
 
 # Entertainment
 pacman -S --noconfirm --needed \
     steam \
+    steam-native-runtime \
     vlc \
     dolphin-emu
 
@@ -34,18 +39,25 @@ pacman -S --noconfirm --needed \
     audacity \
     gimp \
     code \
+    cmake \
     openmpi \
     dbeaver \
-    sqlitebrowser 
+    sqlitebrowser \
+    wireshark-qt \
+    filezilla \
+    blender 
 
 # Latex
 pacman -S --noconfirm --needed \
-    texlive \
+    texlive-latexextra \
     biber \
     texstudio 
 
 # Java
 pacman -S --noconfirm --needed \
+    jdk-openjdk \
+    openjdk-doc \
+    openjdk-src \
     jdk17-openjdk \
     openjdk17-doc \
     openjdk17-src \
