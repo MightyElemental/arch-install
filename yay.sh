@@ -2,18 +2,20 @@
 
 # Install yay if needed
 if ! pacman -Qi yay > /dev/null ; then
+    echo "Installing yay..."
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si
     cd ..
-    rm -r yay
+    rm -rf yay
 fi
 
 # Install AUR packages
 
 yay -S --noconfirm --needed --sudoloop \
-    papirus-maia-icon-theme-git \
+    papirus-maia-icon-theme \
     matcha-gtk-theme \
+    electron24-bin \
     soundux \
     plexamp-appimage \
     onedriver-git \
@@ -33,6 +35,7 @@ yay -S --noconfirm --needed --sudoloop \
     lib32-mangohud \
     satisfactory-mod-manager \
     osu-lazer-bin \
+    r2modman-bin \
     betacraft-launcher-bin \
     minecraft-technic-launcher \
     minecraft-launcher \
@@ -48,7 +51,6 @@ yay -S --noconfirm --needed --sudoloop \
 
 # Development
 yay -S --noconfirm --needed --sudoloop \
-    anaconda \
     android-studio \
     xilinx-ise \
     megit \
@@ -82,4 +84,5 @@ yay -S --noconfirm --needed --sudoloop \
     downgrade \
     joplin-appimage \
     k4dirstat \
-    teamviewer 
+    teamviewer \
+    eclipse-java-bin 

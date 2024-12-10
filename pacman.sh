@@ -11,11 +11,14 @@ pacman -S --noconfirm --needed \
     wget \
     curl \
     ibus \
-    ibus-anthy 
+    ibus-anthy \
+    jq \
+    xclip 
 
 # Standard
 pacman -S --noconfirm --needed \
     breeze-gtk \
+    noto-fonts-emoji \
     thunderbird \
     catfish \
     virtualbox \
@@ -66,6 +69,5 @@ pacman -S --noconfirm --needed \
     openjdk11-src \
     jdk8-openjdk \
     openjdk8-doc \
-    openjdk8-src \
-    eclipse-java
+    openjdk8-src 
 
