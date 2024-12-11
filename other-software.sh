@@ -25,7 +25,3 @@ echo "Installing Anaconda"
 curl -L https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh -o /tmp/anaconda3-install.sh
 chmod a+rx /tmp/anaconda3-install.sh # Make executable
 /tmp/anaconda3-install.sh # run installer
-
-# Haskell
-echo "Installing Haskell"
-curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh

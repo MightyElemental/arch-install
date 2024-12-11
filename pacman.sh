@@ -32,10 +32,7 @@ pacman -S --noconfirm --needed \
     libreoffice-still \
     gnome-disk-utility \
     gsmartcontrol \
-    drawio-desktop 
-
-# Entertainment
-pacman -S --noconfirm --needed \
+    drawio-desktop \
     steam \
     steam-native-runtime \
     vlc \
@@ -54,16 +51,10 @@ pacman -S --noconfirm --needed \
     sqlitebrowser \
     wireshark-qt \
     filezilla \
-    blender 
-
-# Latex
-pacman -S --noconfirm --needed \
+    blender \
     texlive-latexextra \
     biber \
-    texstudio 
-
-# Java
-pacman -S --noconfirm --needed \
+    texstudio \
     jdk-openjdk \
     openjdk-doc \
     openjdk-src \
@@ -75,5 +66,7 @@ pacman -S --noconfirm --needed \
     openjdk11-src \
     jdk8-openjdk \
     openjdk8-doc \
-    openjdk8-src 
-
+    openjdk8-src \
+    ghc-libs \
+    ghc \
+    haskell-random 
