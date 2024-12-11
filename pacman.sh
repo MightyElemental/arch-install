@@ -12,6 +12,7 @@ pacman -S --noconfirm --needed \
     curl \
     ibus \
     ibus-anthy \
+    ffmpeg \
     jq \
     xclip 
 
@@ -26,7 +27,12 @@ pacman -S --noconfirm --needed \
     virtualbox-guest-utils \
     discord \
     telegram-desktop \
-    obs-studio 
+    obs-studio \
+    v4l2loopback-dkms \
+    libreoffice-still \
+    gnome-disk-utility \
+    gsmartcontrol \
+    drawio-desktop 
 
 # Entertainment
 pacman -S --noconfirm --needed \

@@ -60,7 +60,6 @@ yay -S --noconfirm --needed --sudoloop \
 yay -S --noconfirm --needed --sudoloop \
     gimp-plugin-registry \
     cura-bin \
-    drawio-desktop-bin \
     kdenlive 
 
 # Browsers
@@ -77,8 +76,8 @@ yay -S --noconfirm --needed --sudoloop \
     qbittorrent \
     freefilesync-bin \
     exif \
-    balena-etcher-appimage \
-    mission-center-git \
+    balena-etcher \
+    mission-center \
     makemkv \
     x2goclient \
     downgrade \
