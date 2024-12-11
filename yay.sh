@@ -3,16 +3,15 @@
 # Install yay if needed
 if ! pacman -Qi yay > /dev/null ; then
     echo "Installing yay..."
-    git clone https://aur.archlinux.org/yay.git
-    cd yay
-    makepkg -si
-    cd ..
-    rm -rf yay
+    git clone https://aur.archlinux.org/yay.git /tmp/yay
+    cd /tmp/yay || exit 1
+    makepkg -si || exit 1
+    cd - || echo "failed to return to directory"
 fi
 
 # Install AUR packages
 
-yay -S --noconfirm --needed --sudoloop \
+yay -Sy --noconfirm --needed --sudoloop \
     papirus-maia-icon-theme \
     matcha-gtk-theme \
     electron24-bin \
@@ -54,7 +53,9 @@ yay -S --noconfirm --needed --sudoloop \
     android-studio \
     xilinx-ise \
     megit \
-    netlogo 
+    netlogo \
+    lombok-eclipse-java \
+    eclipse-java-bin 
 
 # Creative
 yay -S --noconfirm --needed --sudoloop \
@@ -73,7 +74,6 @@ yay -S --noconfirm --needed --sudoloop \
 yay -S --noconfirm --needed --sudoloop \
     spectre-meltdown-checker \
     gtkhash-thunar \
-    qbittorrent \
     freefilesync-bin \
     exif \
     balena-etcher \
@@ -82,6 +82,5 @@ yay -S --noconfirm --needed --sudoloop \
     x2goclient \
     downgrade \
     joplin-appimage \
-    k4dirstat \
-    teamviewer \
-    eclipse-java-bin 
+    qdirstat \
+    teamviewer 

@@ -33,6 +33,7 @@ pacman -S --noconfirm --needed \
     gnome-disk-utility \
     gsmartcontrol \
     drawio-desktop \
+    qbittorrent \
     steam \
     steam-native-runtime \
     vlc \
