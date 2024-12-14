@@ -21,6 +21,7 @@ pacman -S --noconfirm --needed \
     breeze-gtk \
     noto-fonts-emoji \
     thunderbird \
+    alltray \
     catfish \
     virtualbox \
     virtualbox-guest-iso \
