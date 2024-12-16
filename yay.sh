@@ -19,7 +19,8 @@ yay -Sy --noconfirm --needed --sudoloop \
     plexamp-appimage \
     onedriver-git \
     archlinux-java-run \
-    google-earth-pro 
+    google-earth-pro \
+    microsoft-edge-stable-bin 
 
 # wine
 yay -S --noconfirm --needed --sudoloop \
@@ -62,13 +63,6 @@ yay -S --noconfirm --needed --sudoloop \
     gimp-plugin-registry \
     cura-bin \
     kdenlive 
-
-# Browsers
-yay -S --noconfirm --needed --sudoloop \
-    microsoft-edge-stable-bin \
-    chromium \
-    firefox \
-    tor 
 
 # Tools
 yay -S --noconfirm --needed --sudoloop \

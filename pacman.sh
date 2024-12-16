@@ -38,7 +38,11 @@ pacman -S --noconfirm --needed \
     steam \
     steam-native-runtime \
     vlc \
-    dolphin-emu
+    dolphin-emu \
+    chromium \
+    firefox \
+    tor \
+    torbrowser-launcher 
 
 # Development
 pacman -S --noconfirm --needed \
