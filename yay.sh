@@ -17,7 +17,7 @@ yay -Sy --noconfirm --needed --sudoloop \
     electron24-bin \
     soundux \
     plexamp-appimage \
-    onedriver-git \
+    onedrive-abraunegg \
     archlinux-java-run \
     google-earth-pro \
     microsoft-edge-stable-bin 
