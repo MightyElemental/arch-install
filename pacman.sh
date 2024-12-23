@@ -37,6 +37,8 @@ pacman -S --noconfirm --needed \
     qbittorrent \
     steam \
     steam-native-runtime \
+    gamemode \
+    lib32-gamemode \
     vlc \
     dolphin-emu \
     chromium \
