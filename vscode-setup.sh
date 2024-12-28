@@ -20,3 +20,4 @@ code --install-extension justusadam.language-haskell # Haskell Syntax Highlighti
 code --install-extension redhat.java # Java
 code --install-extension redhat.vscode-yaml # YAML
 code --install-extension redhat.vscode-xml # XML
+code --install-extension llvm-vs-code-extensions.vscode-clangd # C/C++
