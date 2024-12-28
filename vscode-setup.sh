@@ -21,3 +21,8 @@ code --install-extension redhat.java # Java
 code --install-extension redhat.vscode-yaml # YAML
 code --install-extension redhat.vscode-xml # XML
 code --install-extension llvm-vs-code-extensions.vscode-clangd # C/C++
+
+# Jupyter may not work correctly in the opensource version of code. To fix this:
+# Insert "enable-proposed-api": ["ms-toolsai.jupyter"] in the start settings of vs code.
+# So press CTRL+ALT+P -> "Preference: Configure Runtime Arguments" then insert the upper line.
+# ALTERNATIVE: Install code-features from aur.
