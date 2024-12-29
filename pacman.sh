@@ -23,6 +23,7 @@ pacman -S --noconfirm --needed \
     thunderbird \
     alltray \
     catfish \
+    easytag \
     virtualbox \
     virtualbox-guest-iso \
     virtualbox-guest-utils \
