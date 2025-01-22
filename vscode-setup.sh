@@ -20,6 +20,7 @@ code --install-extension justusadam.language-haskell # Haskell Syntax Highlighti
 code --install-extension redhat.java # Java
 code --install-extension redhat.vscode-yaml # YAML
 code --install-extension redhat.vscode-xml # XML
+code --install-extension mechatroner.rainbow-csv # CSV
 code --install-extension llvm-vs-code-extensions.vscode-clangd # C/C++
 
 # Jupyter may not work correctly in the opensource version of code. To fix this:
