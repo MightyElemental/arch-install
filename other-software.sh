@@ -8,9 +8,15 @@ chmod a+rx ~/.local/bin/yt-dlp  # Make executable
 # ollama
 echo "Installing ollama"
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull llama2-uncensored
-ollama pull codellama
 ollama pull llama3.2
+ollama pull llama2-uncensored
+ollama pull artifish/llama3.2-uncensored
+ollama pull codellama
+ollama pull deepseek-coder-v2
+ollama pull deepseek-r1:32b
+ollama pull deepseek-r1:14b
+ollama pull deepseek-r1:8b
+ollama pull deepseek-r1:7b
 
 # pia
 echo "Installing Private Internet Access"

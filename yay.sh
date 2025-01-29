@@ -77,4 +77,5 @@ yay -S --noconfirm --needed --sudoloop \
     downgrade \
     joplin-appimage \
     qdirstat \
-    teamviewer 
+    teamviewer \
+    chatbox-bin 
