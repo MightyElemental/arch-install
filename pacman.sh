@@ -51,6 +51,7 @@ pacman -S --noconfirm --needed \
 pacman -S --noconfirm --needed \
     cuda \
     cuda-tools \
+    docker \
     audacity \
     gimp \
     code \
