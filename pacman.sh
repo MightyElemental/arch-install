@@ -14,7 +14,8 @@ pacman -S --noconfirm --needed \
     ibus-anthy \
     ffmpeg \
     jq \
-    xclip 
+    xclip \
+    net-tools
 
 # Standard
 pacman -S --noconfirm --needed \
