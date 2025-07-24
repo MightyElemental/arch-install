@@ -78,4 +78,5 @@ yay -S --noconfirm --needed --sudoloop \
     joplin-appimage \
     qdirstat \
     teamviewer \
-    chatbox-bin 
+    chatbox-bin \
+    lmstudio 
