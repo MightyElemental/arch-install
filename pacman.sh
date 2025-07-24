@@ -15,7 +15,9 @@ pacman -S --noconfirm --needed \
     ffmpeg \
     jq \
     xclip \
-    net-tools
+    net-tools \
+    lshw \
+    msr-tools 
 
 # Standard
 pacman -S --noconfirm --needed \
@@ -44,7 +46,7 @@ pacman -S --noconfirm --needed \
     vlc \
     dolphin-emu \
     chromium \
-    firefox \
+    brave-browser \
     tor \
     torbrowser-launcher 
 
