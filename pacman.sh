@@ -17,7 +17,8 @@ pacman -S --noconfirm --needed \
     xclip \
     net-tools \
     lshw \
-    msr-tools 
+    msr-tools \
+    dnsutils 
 
 # Standard
 pacman -S --noconfirm --needed \
