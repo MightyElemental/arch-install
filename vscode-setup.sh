@@ -25,6 +25,7 @@ code --install-extension llvm-vs-code-extensions.vscode-clangd # C/C++
 code --install-extension claui.packaging # PKGBUILD
 code --install-extension timonwong.shellcheck # Shell
 code --install-extension Vue.volar # Vue
+code --install-extension nico-castell.linux-desktop-file # Desktop
 
 # Jupyter may not work correctly in the opensource version of code. To fix this:
 # Insert "enable-proposed-api": ["ms-toolsai.jupyter"] in the start settings of vs code.
