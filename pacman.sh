@@ -84,4 +84,5 @@ pacman -S --noconfirm --needed \
     ghc-libs \
     ghc \
     haskell-random \
-    python-secretstorage 
+    python-secretstorage \
+    deno 
