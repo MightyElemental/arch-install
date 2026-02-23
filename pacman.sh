@@ -83,4 +83,5 @@ pacman -S --noconfirm --needed \
     openjdk8-src \
     ghc-libs \
     ghc \
-    haskell-random 
+    haskell-random \
+    python-secretstorage 
