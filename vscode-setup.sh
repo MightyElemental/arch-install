@@ -2,7 +2,7 @@
 
 # Tools
 code --install-extension mads-hartmann.bash-ide-vscode # Bash IDE
-code --install-extension DanielSanMedium.dscodegpt # CodeGPT
+code --install-extension Continue.continue # Continue (AI Integration)
 code --install-extension eamodio.gitlens # Git Lens
 code --install-extension mhutchie.git-graph # Git Graph
 code --install-extension esbenp.prettier-vscode # Prettier VSCode
