@@ -66,6 +66,10 @@ pacman -S --noconfirm --needed \
     wireshark-qt \
     filezilla \
     blender \
+    texlive-core \
+    texlive-bibtexextra \
+    texlive-fontsrecommended \
+    texlive-fontsextra \
     texlive-latexextra \
     biber \
     texstudio \
